@@ -1,0 +1,38 @@
+.body-frame{
+    background-color: rgba(243, 243, 243, 0.896);
+    
+    border-radius: 10px;
+}
+
+.brak-info{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    background-color: rgba(230, 224, 224, 0.986);
+    border-radius: 10px;
+    padding: 10px;
+}
+.exercise{
+    background-color: rgba(230, 224, 224, 0.986);
+    padding-top: 5px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.break{
+    background-color: rgba(230, 224, 224, 0.986);
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding-top: 5px;
+   
+}
+.About{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+button{
+    border-radius: 50%;
+    padding: 5px;
+    border: none;
+}
