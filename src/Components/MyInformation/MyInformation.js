@@ -18,7 +18,29 @@ const MyInformation = ({ activity }) => {
     }
     return (
         <div className='activites container shadow-lg p-4'>
-            
+            <div className="top d-flex gap-2">
+                <img src={pic} alt="" className='About' />
+                <div className="top-info">
+                    <h5>Swapon Kumar</h5>
+                    <p>Dhaka Bangladesh</p>
+                </div>
+            </div>
+            <div className="body-frame">
+                <div className="row">
+                    <div className="col-md-4">
+                        <h4>65kg</h4>
+                        <p>Weight</p>
+                    </div>
+                    <div className="col-md-4">
+                        <h4>5.8</h4>
+                        <p>Height</p>
+                    </div>
+                    <div className="col-md-4">
+                        <h5>22Year</h5>
+                        <p>Age</p>
+                    </div>
+                </div>
+            </div>
             <h5 className='mt-5'>Add a Break</h5>
             <div className="brak-info">
                 <button onClick={() => handleBreakTime(10)}>10s</button>
