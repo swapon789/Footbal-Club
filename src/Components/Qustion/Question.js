@@ -35,6 +35,20 @@ const Question = () => {
                         </div>
                     </div>
                 </div>
+                {/* third accordian */}
+                <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingThree">
+                        <button className="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What is the useffect other than data load?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
+                            Ans:
+                            <p>The useEffect Hook allows you to perform side effects in your components. Some examples of side effects are: fetching data, directly updating the DOM, and timers. useEffect accepts two arguments. setting up subscriptions or timers, etc can lead to unwarranted side-effects.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             {/* accordian section end*/}
         </div>

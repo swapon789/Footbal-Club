@@ -4,19 +4,19 @@
         "name": "Dumble",
         "information": "Dumbbells are the most accessible free weights so they’re the first most people tend to try, either in the gym or as part of a home workout.",
         "Age": "20-25",
-        "Time": 30
+        "Time": 20
     },
     {
         "img": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?cs=srgb&dl=pexels-victor-freitas-841130.jpg&fm=jpg",
         "name": "Lunges",
         "information": "Stand with feet hip-width apart, engage your core, and take a big step backward. Activate your glutes as you bend front knee to lower your body.",
         "Age": "20-25",
-        "Time": 30
+        "Time": 25
     },
     {
         "img": "https://images.pexels.com/photos/3076514/pexels-photo-3076514.jpeg?cs=srgb&dl=pexels-jonathan-borba-3076514.jpg&fm=jpg",
         "name": "Pushup",
-        "information": "Pushups are an exercise in which a person, keeping a prone position, with the hands palms down under the shoulders, the balls of the feet on.",
+        "information": "Pushups are an exercise in which a person, keeping a prone position, with the hands palms down under the shoulders.",
         "Age": "20-25",
         "Time": 30
     },
@@ -25,20 +25,20 @@
         "name": "Squats",
         "information": "The squat is a fundamental movement pattern that requires multiple joint and muscle integration. Babies squat perfectly.",
         "Age": "20-25",
-        "Time": 30
+        "Time": 35
     },
     {
         "img": "https://images.pexels.com/photos/3838389/pexels-photo-3838389.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3838389.jpg&fm=jpg",
         "name": "Burpees",
         "information": "The burpee is a simple whole-body aerobic exercise, involving a combination of push-ups and leaping in the air.",
         "Age": "20-25",
-        "Time": 30
+        "Time": 40
     },
     {
         "img": "https://images.pexels.com/photos/1480530/pexels-photo-1480530.jpeg?cs=srgb&dl=pexels-sabel-blanco-1480530.jpg&fm=jpg",
         "name": "Side planks",
-        "information": "The primary muscles used are the obliques, along with the gluteus medius and gluteus maximus to stabilize the hips.",
+        "information": "The primary muscles used are the obliques, along with the gluteus medius and gluteus maximus to stabilize.",
         "Age": "20-25",
-        "Time": 30
+        "Time": 45
     }
 ]
