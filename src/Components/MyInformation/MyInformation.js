@@ -40,15 +40,15 @@ const MyInformation = ({ activity }) => {
             </div>
             <div className="body-frame">
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col">
                         <h4>65kg</h4>
                         <p>Weight</p>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col">
                         <h4>5.8</h4>
                         <p>Height</p>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col">
                         <h5>22Year</h5>
                         <p>Age</p>
                     </div>
