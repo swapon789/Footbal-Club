@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './MyInformation.css'
 import pic from '../../images/IMG_20190724_114002.JPG';
 import 'react-toastify/dist/ReactToastify.css';
@@ -8,12 +8,22 @@ const MyInformation = ({ activity }) => {
 
     const notify = () => toast("Wow so easy!");
 
-    const [breakTime, setBreakTime] = useState([]);
+    const [breakTime, setBreakTime] = useState([0]);
 
-    function handleBreakTime(breakTime) {
-        setBreakTime(breakTime);
+    function handleBreakTime(breakTimes) {
+        setBreakTime(breakTimes);
+        localStorage.setItem('time', JSON.stringify(breakTimes))
 
     }
+
+    useEffect(() => {
+        const timeCount = JSON.parse(localStorage.getItem('time'));
+        if(timeCount){
+            localStorage.setItem('time', JSON.parse(timeCount))
+
+        }
+        setBreakTime(timeCount)
+    }, []);
 
     let totalTime = 0;
     for (const time of activity) {
