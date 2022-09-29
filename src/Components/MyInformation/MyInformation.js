@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import './MyInformation.css'
-import pic from '../../images/IMG_20190724_114002.JPG'
+import pic from '../../images/IMG_20190724_114002.JPG';
+import 'react-toastify/dist/ReactToastify.css';
+  import { ToastContainer, toast } from 'react-toastify';
 
 const MyInformation = ({ activity }) => {
 
+    const notify = () => toast("Wow so easy!");
 
     const [breakTime, setBreakTime] = useState([]);
 
@@ -59,7 +62,8 @@ const MyInformation = ({ activity }) => {
                 <p className='fw-bold'>Brak Time : </p>
                 <p>{breakTime}s</p>
             </div>
-            <button className='btn btn-primary w-100 mb-5'>Activity Complited</button>
+            <button onClick={notify} className='btn btn-primary w-100 mb-5'>Activity Complited</button>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
